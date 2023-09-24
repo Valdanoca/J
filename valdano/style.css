@@ -7,8 +7,10 @@
       list-style: none;
       font-family:Arial, Helvetica, sans-serif;
    }
-   .logotipo img{
-border-radius: 30px;
+   .logoimg {
+width: 100px;
+width: 100px;
+border-radius: 50%;
 
    }
 
@@ -35,10 +37,6 @@ a:visited{
     justify-content: space-between;
   }
 
-  .logotipo{
-    margin-left: 2rem;
-    /* color: #fff; */
-  }
 
 .nav{
     margin-right: 2rem;
@@ -155,6 +153,13 @@ a:visited{
   margin-bottom: 20px;
 }
 
-.formulario{
-  
+.formulario{  
+  background-image: url("");
+  border: 3px dashed green;
+  width: 200px;
+  height: 215px;
+  padding: 20px;
+  margin: 20px;
+  background-color: aqua;
+  border-radius: 7px;
 }

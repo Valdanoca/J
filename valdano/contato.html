@@ -7,14 +7,13 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
     <!-- CABEÇALHO-->
     <header class="cabecalho">
         <div class="logotipo">
-            <a href="./index.html"><img src="./img_todas/Toti_logo.jpeg" alt="logo" width="70"/> </a>
+            <a href="./index.html"> <img class="logoimg" src="./img_todas/Toti_logo.jpeg" alt="logo" width=" "/> </a>
         </div>
         <div class="nav">
             <nav class="navegacao">
@@ -35,25 +34,39 @@
         </div>
     </section>
 
-    <h2 class="titulo-1"> Contato </h2>
+    <h2 class="titulo-1"> SERVICO </h2>
 
 <!-- ================ card ===============  -->
 <section class="formulario">
-    <form action="">
-        <label for=""> Nome: </label> <br>
-        <input type="text" placeholder="digite seu nome"> <br>
+    <form id="iniciarForm" nome="iniciarForm" action="#">
+   <!--<fieldset> --> 
+    <legend> <b> Meus dados: </b></legend>
 
-        <label for=""> email </label><br>
-        <input type="text" placeholder="digite seu email"><br>
+        <label for="nome"> Nome : </label> 
+        <input type="text" id="nome" nome="nome"> 
+        <br>
 
-        <textarea placeholder="digite seu texto aqui"></textarea> <br>
+        <label for="email"> Email : </label>
+        <input type="text" id="email" nome="email"> 
+        <br>
 
-        <button type="submit"> Enviar </button>
+        <label for="contato"> Contato : </label>
+        <input type="text" id="contato" nome="contato"> 
+        <br>
+
+        <label for="seutext"> Faça descrição : </label>
+        <textarea  id="seutext" idplaceholder="seutext"> </textarea> 
+        <br>
+
+        <input type="submit" value="Adicionar" onclick="ad()"> 
+        <br>
+            uaanusa
+
+       <!-- <button type="submit"> Enviar </button> -->
+       
+    <!--</fieldset> -->
     </form>
 </section>
-
-<button id="adicionar-servico-btn"> Adicionar Serviço </button>
-
 
     <footer>
         <div class="footer">
